@@ -1,61 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.logo{
+.logo {
     width: 180px;
     height: 80px;
 }
 
-.nav{
+.nav {
     padding: 1px;
     background-color: #0067b6;
 }
 
-.list{
+.list {
     display: flex;
     list-style: none;
 }
 
-.item{
+.item {
     margin: 10px 30px;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: white;
     transition: all 0.3s ease-in-out;
 }
 
-.link:hover{
+.link:hover {
     color: hsl(225, 100%, 17%);
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
 
-main{
+main {
     background-color: #d7e8f8;
     height: 40vh;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.container-main{
+.container-main {
     background-color: white;
     width: 900px;
     height: 110px;
-    margin-bottom: 30px;
 }
 
-.content{
+.content {
     margin-left: 20px;
     padding: 10px;
 }
 
-.container-main-lateral{
+.container-main-lateral {
     background-color: rgb(253, 97, 0);
     width: 500px;
     height: 110px;
@@ -63,12 +62,32 @@ main{
     margin-left: 75px;
 }
 
-.container-footer{
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #000000;
 }
 
-.text-footer{
-    color: white;
+.text-footer {
     text-align: center;
+    flex-grow: 1;
     padding: 20px;
+    color: white;
+}
+
+.github {
+    padding: 20px;
+}
+
+.link-github {
+    text-decoration: none;
+    color: hwb(0 53% 45%);
+    transition: all 0.3s ease-in-out;
+}
+
+.link-github:hover {
+    transform: scale(1.1);
+    color: #0067b6;
+    transition: all 0.3s ease-in-out;
 }
