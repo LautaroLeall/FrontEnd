@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lautaro Leal Del Prete</title>
+    <link rel="stylesheet" href="./style/4toP.css">
+</head>
+
+<body>
+    <h1>3er Trabajo Practico - Front End</h1>
+    <h2>JavaScript</h2>
+    <p>
+        4to Punto. <br>
+        Realiza una página que muestre cinco cuadrados de diferentes colores. Cuando el mouse pase por encima de alguno
+        de ellos el color de fondo de todo el sitio web será del color de relleno del cuadrado
+    </p>
+    <div class="container-cuadrados">
+        <div class="cuadrado-1" onmouseover="cambiarColor(1)" onmouseout="restaurarColor()"></div>
+        <div class="cuadrado-2" onmouseover="cambiarColor(2)" onmouseout="restaurarColor()"></div>
+        <div class="cuadrado-3"onmouseover="cambiarColor(3)" onmouseout="restaurarColor()"></div>
+        <div class="cuadrado-4" onmouseover="cambiarColor(4)" onmouseout="restaurarColor()"></div>
+        <div class="cuadrado-5" onmouseover="cambiarColor(5)" onmouseout="restaurarColor()"></div>
+    </div>
+    <script>
+        function cambiarColor(index) {
+            switch (index) {
+                case 1:
+                    document.body.style.backgroundColor = "red";
+                    break;
+                case 2:
+                    document.body.style.backgroundColor = "black";
+                    break;
+                case 3:
+                    document.body.style.backgroundColor = "blue";
+                    break;
+                case 4:
+                    document.body.style.backgroundColor = "green";
+                    break;
+                case 5:
+                    document.body.style.backgroundColor = "yellow";
+                    break;
+            }
+        }
+        function restaurarColor() {
+        document.body.style.backgroundColor = "white";
+    }
+    </script>
+</body>
+
+</html>

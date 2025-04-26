@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lautaro Leal Del Prete</title>
+</head>
+
+<body>
+    <h1>3er Trabajo Practico - Front End</h1>
+    <h2>JavaScript</h2>
+    <p>
+        3er Punto. <br>
+        Calcular y mostrar los números primos del 1 al 100 usando un ciclo for y un array de números enteros.
+    </p>
+    <script>
+        const numerosPrimos = [];
+        for (let i = 2; i <= 100; i++) {
+            // Lo hago desde el 2 ya que el 1 no es considerado un número primo
+            let esPrimo = true;
+            for (let j = 2; j <= Math.sqrt(i); j++) {
+                // Se realiza hasta la raíz cuadrada del numero (osea hasta la raiz cuadrada de i)
+                if (i % j === 0) {
+                    esPrimo = false;
+                    break;
+                }
+            }
+            if (esPrimo) {
+                numerosPrimos.push(i);
+            }
+        }
+        document.write(numerosPrimos);
+    </script>
+</body>
+
+</html>

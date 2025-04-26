@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lautaro Leal Del Prete</title>
+</head>
+
+<body>
+    <h1>3er Trabajo Practico - Front End</h1>
+    <h2>JavaScript</h2>
+    <p>
+        2do Punto. <br>
+        Pedir una nota y mostrar la calificación según la nota: <br>
+        ▪ 0-3: Muy deficiente <br>
+        ▪ 3-5: Insuficiente <br> 
+        ▪ 5-6: Suficiente <br> 
+        ▪ 6-7: Bien <br>
+        ▪ 7-9: Notable <br>
+        ▪ 9-10: Sobresaliente <br>
+    </p>
+    <script>
+        const nota = prompt("Dime tu nota");
+        if (nota >= 0 && nota <= 3) {
+            alert(`${nota} = Muy deficiente`);
+        } else if (nota >= 3 && nota <= 5) {
+            alert(`${nota} = Insuficiente`);
+        } else if (nota >= 5 && nota <= 6) {
+            alert(`${nota} = Suficiente`);
+        } else if (nota >= 6 && nota <= 7) {
+            alert(`${nota} = Bien`);
+        } else if (nota >= 7 && nota <= 9) {
+            alert(`${nota} = Notable`);
+        } else if (nota >= 9 && nota <= 10) {
+            alert(`${nota} = Sobresaliente`);
+        } else{
+            alert("Error en la nota introducida");
+        }
+    </script>
+</body>
+
+</html>
