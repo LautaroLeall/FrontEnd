@@ -33,3 +33,30 @@
     tenue/claro.
   - Respetar márgenes entre las secciones.
   - El footer debe estar centrado.
+
+#### Tercer Trabajo Practico
+
+**JAVASCRIPT**
+
+1. Pedir la edad y si es mayor a 18 indicar que puede conducir.
+
+2. Pedir una nota y mostrar la calificación según la nota:
+
+- 0-3: Muy deficiente
+- 3-5: Insuficiente
+- 5-6: Suficiente
+- 6-7: Bien
+- 7-9: Notable
+- 9-10: Sobresaliente
+
+3. Calcular y mostrar los números primos del 1 al 100 usando un ciclo for y un array de números enteros.
+
+4. Realiza una página que muestre cinco cuadrados de diferentes colores. Cuando el mouse pase por encima de alguno de ellos el color de fondo de todo el sitio web será del color de relleno del cuadrado.
+
+5. Desarrollar un formulario (Nombre - Apellido - Sexo - Edad) y validar todos sus campos
+
+- Además:
+  - Si es Hombre y mayor a 65 entonces mostrar un
+  mensaje indicando que puede jubilarse
+  - Si es mujer y mayor a 60 entonces mostrar un mensaje
+  indicando que puede jubilarse
