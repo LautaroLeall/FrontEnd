@@ -36,7 +36,7 @@
 
 #### Tercer Trabajo Practico
 
-**JAVASCRIPT**
+**HTML AND JAVASCRIPT**
 
 1. Pedir la edad y si es mayor a 18 indicar que puede conducir.
 
