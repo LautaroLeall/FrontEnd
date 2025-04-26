@@ -1,10 +1,10 @@
 # Desarrollo de Front End - 2025
 
-### _Universidad del Norte Santo Tomas de Aquino_
+## _Universidad del Norte Santo Tomas de Aquino_
 
 ### ~~Trabajos Practicos~~
 
-#### Primer Trabajo Practico
+## Primer Trabajo Practico
 
 **HTML**
 
@@ -19,7 +19,7 @@
 
 4. Diseñar una lista no ordenada de lenguajes de programación, luego anidar con una lista ordenada.
 
-#### Segundo Trabajo Practico
+## Segundo Trabajo Practico
 
 **HTML AND CSS**
 
@@ -28,13 +28,11 @@
 ![Segundo TP](./TP2.png "Segundo TP")
 
 - Algunas consideraciones:
-  - Cuando hago el hover de algún elemento del menú el
-    background de este debería mostrarse en un azul más
-    tenue/claro.
+  - Cuando hago el hover de algún elemento del menú el background de este debería mostrarse en un azul más tenue/claro.
   - Respetar márgenes entre las secciones.
   - El footer debe estar centrado.
 
-#### Tercer Trabajo Practico
+## Tercer Trabajo Practico
 
 **HTML AND JAVASCRIPT**
 
@@ -56,7 +54,5 @@
 5. Desarrollar un formulario (Nombre - Apellido - Sexo - Edad) y validar todos sus campos
 
 - Además:
-  - Si es Hombre y mayor a 65 entonces mostrar un
-  mensaje indicando que puede jubilarse
-  - Si es mujer y mayor a 60 entonces mostrar un mensaje
-  indicando que puede jubilarse
+  - Si es Hombre y mayor a 65 entonces mostrar un mensaje indicando que puede jubilarse
+  - Si es mujer y mayor a 60 entonces mostrar un mensaje indicando que puede jubilarse
