@@ -18,5 +18,5 @@ function cambiarColor(index) {
     }
 }
 function restaurarColor() {
-document.body.style.backgroundColor = "white";
+    document.body.style.backgroundColor = "white";
 }
