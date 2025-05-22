@@ -1,6 +1,7 @@
 import Contador from './components/Contador'
 import Reloj from './components/Reloj'
-import NombreEdad from './components/NombreEdad'
+import EstimarEdad from './components/EstimarEdad'
+import EdadLautaro from './components/EdadLautaro'
 import './App.css'
 
 function App() {
@@ -10,7 +11,10 @@ function App() {
       <div className="puntos">
         <Contador />
         <Reloj />
-        <NombreEdad />
+        <div className="punto-3">
+          <EstimarEdad />
+          <EdadLautaro />
+        </div>
       </div>
     </>
   )
