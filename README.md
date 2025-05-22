@@ -1,10 +1,10 @@
-# Desarrollo de Front End - 2025
+# 💻​ Desarrollo de Front End - 2025
 
-## _Universidad del Norte Santo Tomas de Aquino_
+## 🏫 Universidad del Norte Santo Tomas de Aquino
 
-### ~~Trabajos Practicos~~
+### 📝​ Trabajos Practicos
 
-## Primer Trabajo Practico
+## 1️⃣​ Primer Trabajo Practico
 
 **HTML**
 
@@ -19,7 +19,7 @@
 
 4. Diseñar una lista no ordenada de lenguajes de programación, luego anidar con una lista ordenada.
 
-## Segundo Trabajo Practico
+## 2️⃣ Segundo Trabajo Practico
 
 **HTML AND CSS**
 
@@ -32,7 +32,7 @@
   - Respetar márgenes entre las secciones.
   - El footer debe estar centrado.
 
-## Tercer Trabajo Practico
+## 3️⃣​ Tercer Trabajo Practico
 
 **HTML AND JAVASCRIPT**
 
@@ -57,7 +57,7 @@
   - Si es Hombre y mayor a 65 entonces mostrar un mensaje indicando que puede jubilarse
   - Si es mujer y mayor a 60 entonces mostrar un mensaje indicando que puede jubilarse
 
-## Cuarto Trabajo Practico
+## 4️⃣​ Cuarto Trabajo Practico
 
 **REACT**
 
