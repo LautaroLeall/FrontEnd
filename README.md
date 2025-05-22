@@ -56,3 +56,13 @@
 - Además:
   - Si es Hombre y mayor a 65 entonces mostrar un mensaje indicando que puede jubilarse
   - Si es mujer y mayor a 60 entonces mostrar un mensaje indicando que puede jubilarse
+
+## Cuarto Trabajo Practico
+
+**REACT**
+
+1. Crear un componente de clase que contenga dos botones y un contador, al hacer click en el botón ‘Incrementar’ sumar de 1 en 1, hacer click en ‘Decrementar’ restar de 1 en 1.
+
+2. Crear un componente de clase que permita inicializar un reloj con un botón y detenerlo con otro.
+
+3. Crear un componente que haga un llamado a la api url https://api.agify.io/?name=[name], reemplaza [name] por tu nombre y muestra en pantalla la edad (age) propuesta por la respuesta ajax usando fetch. 
