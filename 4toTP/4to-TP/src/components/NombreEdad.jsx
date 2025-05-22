@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-function EdadRandomPorNombre() {
+function EdadNombre() {
     const [name, setName] = useState('');
     const [randomAge, setRandomAge] = useState(null);
     const [loading, setLoading] = useState(false);
 
-    const obtenerEdadAleatoria = async () => {
+    const edadEstimada = async () => {
         if (!name.trim()) return;
 
         setLoading(true);
@@ -28,7 +28,7 @@ function EdadRandomPorNombre() {
 
     return (
         <div className='nombre-edad'>
-            <h2>Edad aleatoria por nombre</h2>
+            <h3>Edad Estimada</h3>
             <div className="contenedor">
                 <input
                     className='input'
@@ -37,15 +37,15 @@ function EdadRandomPorNombre() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                 />
-                <button onClick={obtenerEdadAleatoria} disabled={loading}>
+                <button onClick={edadEstimada} disabled={loading}>
                     {loading ? 'Consultando...' : 'Obtener edad'}
                 </button>
             </div>
             {randomAge !== null && (
-                <p>{name.toUpperCase()} TIENE {randomAge} AÑOS.</p>
+                <p>LA EDAD ESTIMADA DE {name.toUpperCase()} ES: {randomAge} AÑOS.</p>
             )}
         </div>
     );
 }
 
-export default EdadRandomPorNombre;
+export default EdadNombre;
