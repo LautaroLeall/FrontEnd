@@ -4,6 +4,8 @@
 
 ### 📝​ Trabajos Practicos
 
+---
+
 ## 1️⃣​ Primer Trabajo Practico
 
 **HTML**
@@ -19,6 +21,8 @@
 
 4. Diseñar una lista no ordenada de lenguajes de programación, luego anidar con una lista ordenada.
 
+---
+
 ## 2️⃣ Segundo Trabajo Practico
 
 **HTML AND CSS**
@@ -31,6 +35,8 @@
   - Cuando hago el hover de algún elemento del menú el background de este debería mostrarse en un azul más tenue/claro.
   - Respetar márgenes entre las secciones.
   - El footer debe estar centrado.
+
+---
 
 ## 3️⃣​ Tercer Trabajo Practico
 
@@ -57,6 +63,8 @@
   - Si es Hombre y mayor a 65 entonces mostrar un mensaje indicando que puede jubilarse
   - Si es mujer y mayor a 60 entonces mostrar un mensaje indicando que puede jubilarse
 
+---
+
 ## 4️⃣​ Cuarto Trabajo Practico
 
 **REACT**
@@ -65,4 +73,4 @@
 
 2. Crear un componente de clase que permita inicializar un reloj con un botón y detenerlo con otro.
 
-3. Crear un componente que haga un llamado a la api url https://api.agify.io/?name=[name], reemplaza [name] por tu nombre y muestra en pantalla la edad (age) propuesta por la respuesta ajax usando fetch. 
+3. Crear un componente que haga un llamado a la api url https://api.agify.io/?name=[name], reemplaza [name] por tu nombre y muestra en pantalla la edad (age) propuesta por la respuesta ajax usando fetch.
